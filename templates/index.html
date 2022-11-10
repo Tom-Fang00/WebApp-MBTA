@@ -5,6 +5,17 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Amazing app to help you find nearest MBTA station</title>
+    <style>
+      body{
+        text-align:center;
+      }
+      h1{
+        font-family: cursive;
+      }
+      form{
+        font-size: 1.6em;
+      }
+    </style>
   </head>
   <body>
       <h1>Finding Closest MBTA Station.</h1>
@@ -14,7 +25,7 @@
         <form name="MBTAStation" method="POST">
             <label for="result">Your current location: </label>
             <input type="text" id="result" name="placeName" value="" />
-            <input type="submit" id="submit" value = "SUBMIT">
+            <button type="submit" id="submit"><img alt="train" src="https://pbs.twimg.com/profile_images/1268903017367166977/Wg5Ep97g_400x400.png" width="30"></button>
         </form>
 
       </div>
